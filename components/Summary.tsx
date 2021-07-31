@@ -43,7 +43,7 @@ const Summary = ({ gotoNewsletter }: Props) => {
           fontWeight="bold"
           color={colorModeObj.titleColor[colorMode]}
         >
-          Hey! I'm Oğuzhan Olguncu. I'm a software developer and open-source lover.
+          Hey! I'm Güven Karanfil. I'm a software developer.
         </Heading>
         <Text
           fontSize={['1rem', '1rem', '1.2rem', '1.3rem']}
