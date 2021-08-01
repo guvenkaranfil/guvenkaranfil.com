@@ -11,7 +11,7 @@ type Props = {
   guides: StaticBlog[];
 };
 
-const url = 'https://ogzhanolguncu.com/guides';
+const url = 'https://guvenkaranfil.com/guides';
 const title = 'Guides – Güven Karanfil';
 const description =
   'Guides for all kinds of javascript/typescript tutorials which written from scratch.';

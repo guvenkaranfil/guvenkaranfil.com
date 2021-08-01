@@ -7,7 +7,7 @@ import { ColorModeContext } from '@contexts/CustomColorContext';
 import { NextSeo } from 'next-seo';
 import Timeline from '@components/Timeline';
 
-const url = 'https://ogzhanolguncu.com/about';
+const url = 'https://guvenkaranfil.com/about';
 const title = 'About Me – Güven Karanfil';
 
 const CustomText = ({ children }: { children: ReactNode }) => {

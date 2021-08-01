@@ -5,11 +5,11 @@ const description =
 const SEO = {
   title,
   description,
-  canonical: 'https://ogzhanolguncu.com/',
+  canonical: 'https://guvenkaranfil.com/',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://ogzhanolguncu.com/',
+    url: 'https://guvenkaranfil.com/',
     title,
     description,
     images: [

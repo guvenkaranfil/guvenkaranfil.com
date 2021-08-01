@@ -42,7 +42,7 @@ const options = {
   keys: ['title', 'id'],
 };
 
-const url = 'https://ogzhanolguncu.com/blog';
+const url = 'https://guvenkaranfil.com/blog';
 const title = 'Blog – Güven Karanfil';
 const description = 'Programming tutorials, guides and technical writings about web related stuff.';
 

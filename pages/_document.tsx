@@ -23,7 +23,7 @@ class MyDocument extends Document {
             rel="alternate"
             type="application/rss+xml"
             title="RSS feed for blog posts"
-            href="https://ogzhanolguncu.com/rss.xml"
+            href="https://guvenkaranfil.com/rss.xml"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

@@ -21,7 +21,7 @@ export default function BlogLayout({ children, frontMatter }: any) {
 
   return (
     <Layout>
-      <BlogSeo url={`https://ogzhanolguncu.com/blog/${slug}`} {...frontMatter} />
+      <BlogSeo url={`https://guvenkaranfil.com/blog/${slug}`} {...frontMatter} />
       <Stack
         spacing={8}
         justifyContent="center"
@@ -98,7 +98,7 @@ export default function BlogLayout({ children, frontMatter }: any) {
           flexDirection="row"
           alignItems="center"
           isExternal
-          href={`https://github.com/ogzhanolguncu/ogzhanolguncu.com/tree/master/pages/blog/${slug}.mdx`}
+          href={`https://github.com/ogzhanolguncu/guvenkaranfil.com/tree/master/pages/blog/${slug}.mdx`}
         >
           <RiEdit2Line size={25} />
           <Text marginLeft=".5rem" marginTop="5px">
