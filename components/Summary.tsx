@@ -1,15 +1,6 @@
 import Link from 'next/link';
 
-import {
-  Flex,
-  Box,
-  Heading,
-  Text,
-  Link as StyledLink,
-  Button,
-  useColorMode,
-  Img,
-} from '@chakra-ui/react';
+import { Flex, Box, Heading, Text, Link as StyledLink, useColorMode, Img } from '@chakra-ui/react';
 
 import React from 'react';
 import { useContext } from 'react';
@@ -118,22 +109,6 @@ const Summary = () => {
           </Link>
           .
         </Text>
-        <Box flexDirection={['column', 'column', 'row', 'row']} d="flex">
-          <Button
-            background={colorModeObj.feedBackButtonBackgroundColor[colorMode]}
-            color={colorModeObj.feedBackButtonColor[colorMode]}
-            padding="30px 30px"
-            fontWeight="600"
-            fontSize={['15px', '16px', '16px', '18px']}
-            _hover={{
-              backgroundColor:
-                colorMode === 'light' ? colorModeObj.buttonHoverColor.light : 'orange.500',
-              color: 'white',
-            }}
-          >
-            <Text mr="8px">&#128239;</Text> Give Feedback
-          </Button>
-        </Box>
       </Box>
       <Box margin={['auto 0', '10px 0', '10px 0px', '10px 0px']} maxW="390px">
         <Img
