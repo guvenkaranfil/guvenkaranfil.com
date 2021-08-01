@@ -1,5 +1,5 @@
 import { Flex, Link as StyledLink, IconButton, Button } from '@chakra-ui/react';
-import { SiCodewars, SiGithub, SiGmail, SiLinkedin } from 'react-icons/si';
+import { SiGithub, SiGmail, SiLinkedin } from 'react-icons/si';
 
 import Link from 'next/link';
 import React from 'react';
@@ -50,7 +50,7 @@ const Footer = () => {
         p={['1rem', '1rem', '2rem', '3rem']}
       >
         <StyledLink
-          href="https://github.com/ogzhanolguncu"
+          href="https://github.com/guvenkaranfil"
           title="GitHub"
           isExternal
           paddingX=".5rem"
@@ -58,24 +58,20 @@ const Footer = () => {
           <IconButton icon={<SiGithub size={25} />} aria-label="GitHub" name="github" />
         </StyledLink>
         <StyledLink
-          href="https://www.linkedin.com/in/o%C4%9Fuzhan-olguncu-93a055171/"
+          href="https://www.linkedin.com/in/guven-karanfil/"
           title="LinkedIn"
           isExternal
           paddingX=".5rem"
         >
           <IconButton icon={<SiLinkedin size={25} />} aria-label="LinkedIn" name="linkedin" />
         </StyledLink>
-        <StyledLink href="mailto:ogzhan11@gmail.com" title="Email" isExternal paddingX=".5rem">
-          <IconButton icon={<SiGmail size={25} />} aria-label="Email" name="email" />
-        </StyledLink>
-
         <StyledLink
-          href="https://www.codewars.com/users/hezarfenDede"
-          title="Codewars"
+          href="mailto:guvenkaranfil235@gmail.com"
+          title="Email"
           isExternal
           paddingX=".5rem"
         >
-          <IconButton icon={<SiCodewars size={25} />} aria-label="Codewars" name="codewars" />
+          <IconButton icon={<SiGmail size={25} />} aria-label="Email" name="email" />
         </StyledLink>
       </Flex>
     </Flex>
