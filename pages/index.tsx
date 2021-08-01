@@ -1,9 +1,9 @@
 import { GetStaticProps } from 'next';
-import { Layout, Project, Newsletter, ArticleLists, Summary } from '@components/index';
+import { Layout, Project, ArticleLists, Summary } from '@components/index';
 import { getSortedPostsData } from 'lib/posts';
 
 import { StaticBlog } from 'global';
-import React, { useRef } from 'react';
+import React from 'react';
 
 type Props = {
   blogPosts: StaticBlog[];
@@ -11,21 +11,12 @@ type Props = {
 };
 
 const Home = ({ blogPosts, popularPosts }: Props) => {
-  const newsletterRef = useRef<HTMLInputElement>(null);
-
-  const gotoNewsletter = () => {
-    window.scrollTo({
-      top: newsletterRef.current?.offsetTop,
-      behavior: 'smooth',
-    });
-  };
   return (
     <Layout>
-      <Summary gotoNewsletter={gotoNewsletter} />
+      <Summary />
       <ArticleLists blogs={blogPosts} />
       <ArticleLists blogs={popularPosts} isPopular={true} />
       <Project />
-      <Newsletter ref={newsletterRef} />
     </Layout>
   );
 };

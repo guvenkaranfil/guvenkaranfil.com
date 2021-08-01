@@ -16,11 +16,7 @@ import { useContext } from 'react';
 import { ColorModeContext } from 'contexts/CustomColorContext';
 import useProgressiveImg from 'utils/useProgressiveImg';
 
-type Props = {
-  gotoNewsletter: () => void;
-};
-
-const Summary = ({ gotoNewsletter }: Props) => {
+const Summary = () => {
   const { colorMode } = useColorMode();
   const colorModeObj = useContext(ColorModeContext);
   const [src, { blur }] = useProgressiveImg(
@@ -123,25 +119,6 @@ const Summary = ({ gotoNewsletter }: Props) => {
           .
         </Text>
         <Box flexDirection={['column', 'column', 'row', 'row']} d="flex">
-          <Button
-            onClick={gotoNewsletter}
-            backgroundColor={colorModeObj.buttonColor[colorMode]}
-            color="white"
-            padding="30px 30px"
-            _hover={{
-              backgroundColor:
-                colorMode === 'light'
-                  ? colorModeObj.buttonHoverColor.light
-                  : colorModeObj.buttonHoverColor.dark,
-            }}
-            fontWeight="600"
-            fontSize={['15px', '16px', '16px', '18px']}
-            mb={['10px', '10px', '0px', '0px']}
-            mr={['0px', '0', '10px', '10px']}
-          >
-            <Text mr="8px">&#9889;</Text>
-            Join Newsletter
-          </Button>
           <Button
             background={colorModeObj.feedBackButtonBackgroundColor[colorMode]}
             color={colorModeObj.feedBackButtonColor[colorMode]}
