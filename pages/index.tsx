@@ -7,15 +7,13 @@ import React from 'react';
 
 type Props = {
   blogPosts: StaticBlog[];
-  popularPosts: StaticBlog[];
 };
 
-const Home = ({ blogPosts, popularPosts }: Props) => {
+const Home = ({ blogPosts }: Props) => {
   return (
     <Layout>
       <Summary />
       <ArticleLists blogs={blogPosts} />
-      <ArticleLists blogs={popularPosts} isPopular={true} />
       <Project />
     </Layout>
   );
@@ -28,8 +26,7 @@ export const getStaticProps: GetStaticProps = async () => {
     x.languageTags?.sort(() => 0.5 - Math.random());
     return x;
   });
-  const popularPosts = blogPosts.filter((blog) => blog.isPopular);
   return {
-    props: { blogPosts, popularPosts },
+    props: { blogPosts },
   };
 };
