@@ -1,14 +1,8 @@
 [
   {
-    "redirectUrl": "https://todo-list-liart.vercel.app/",
+    "redirectUrl": "https://redirect-url.com/",
     "unicodeIcon": "📝",
-    "leftSide": "Things to do",
-    "rightSide": "Todo list to demonstrate custom hooks."
-  },
-  {
-    "redirectUrl": "https://github.com/ogzhanolguncu/single-spa-react-app",
-    "unicodeIcon": "📚",
-    "leftSide": "Micro-frontend",
-    "rightSide": "Micro-frontend project built with Single-spa and React."
+    "leftSide": "leftSide",
+    "rightSide": "RightSide"
   }
 ]
