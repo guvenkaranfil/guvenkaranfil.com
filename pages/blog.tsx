@@ -43,7 +43,7 @@ const options = {
 };
 
 const url = 'https://ogzhanolguncu.com/blog';
-const title = 'Blog – Oğuzhan Olguncu';
+const title = 'Blog – Güven Karanfil';
 const description = 'Programming tutorials, guides and technical writings about web related stuff.';
 
 const Blog = ({ blogPosts, groupedBlogPosts }: Props) => {

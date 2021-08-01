@@ -12,7 +12,7 @@ type Props = {
 };
 
 const url = 'https://ogzhanolguncu.com/guides';
-const title = 'Guides – Oğuzhan Olguncu';
+const title = 'Guides – Güven Karanfil';
 const description =
   'Guides for all kinds of javascript/typescript tutorials which written from scratch.';
 

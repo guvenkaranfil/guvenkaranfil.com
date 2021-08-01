@@ -59,7 +59,7 @@ export default function BlogLayout({ children, frontMatter }: any) {
             <Flex justifyContent="center" width="100%" my="1rem">
               <Text fontSize="md" color={textColor[colorMode]}>
                 {frontMatter.by}
-                {`Oğuzhan Olguncu\u00a0\u00a0\u00a0/\u00a0\u00a0\u00a0`}
+                {`Güven Karanfil\u00a0\u00a0\u00a0/\u00a0\u00a0\u00a0`}
                 {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
                 {`\u00a0\u00a0\u00a0/\u00a0\u00a0\u00a0 ${frontMatter.readingTime.text} `}
               </Text>

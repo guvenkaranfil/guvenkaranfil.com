@@ -8,7 +8,7 @@ import { NextSeo } from 'next-seo';
 import Timeline from '@components/Timeline';
 
 const url = 'https://ogzhanolguncu.com/about';
-const title = 'About Me – Oğuzhan Olguncu';
+const title = 'About Me – Güven Karanfil';
 
 const CustomText = ({ children }: { children: ReactNode }) => {
   const colorModeObj = useContext(ColorModeContext);
@@ -54,7 +54,7 @@ const About = () => {
             About me
           </Heading>
           <CustomText>
-            Hi! I'm Oğuzhan Olguncu. I currently work full-time as a Frontend Developer, and I build
+            Hi! I'm Güven Karanfil. I currently work full-time as a Frontend Developer, and I build
             {''}
             <TextLink text=" open-source projects " url="#" /> for fun.
           </CustomText>

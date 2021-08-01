@@ -1,6 +1,6 @@
-const title = 'Oğuzhan Olguncu – Developer, writer, dedicated learner.';
+const title = 'Güven Karanfil – Developer, writer, dedicated learner.';
 const description =
-  'A developer who likes to focus on building beautiful UI/UX designs. Loves using Typescript - Oğuzhan Olguncu';
+  'A developer who likes to focus on building beautiful UI/UX designs. Loves using Typescript - Güven Karanfil';
 
 const SEO = {
   title,

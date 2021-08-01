@@ -51,7 +51,7 @@ const Navbar = () => {
               <Text fontSize={['xl', '2xl', '2xl', '2xl']} mr={2}>
                 🦉
               </Text>
-              Oğuzhan Olguncu
+              Güven Karanfil
             </Button>
           </Link>
         </Box>
